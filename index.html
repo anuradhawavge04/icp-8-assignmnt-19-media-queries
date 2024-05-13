@@ -14,18 +14,40 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin: 10px;
-        padding: 10px;
+        margin: 100px;
       }
       .profile-cards{
         height: 300px;
         width: 500px;
         background-color: white;
         border:solid #cccccc 0.2px;
-        margin: 10px;
-        padding: 10px;
+        margin:10px;
+        padding:0px 10px;
         border-radius: 20px;
       }
+      .image-structure{
+        height: 100px;
+        border-radius: 50%;
+        background-color: white;
+        border:solid #cccccc 0.2px;
+        margin-left:60px ; 
+        margin-bottom: 150px;
+      }
+      .profile-text{
+        margin-top:-135px;
+        font-size: 23px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-weight: 500;
+      }
+     .profile-text1{
+      color: #808080;
+      margin-top:-10px;
+      font-size: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-weight: 500;
+     }
       /*small device*/
       @media screen and (max-width:600px) {
         
@@ -52,16 +74,23 @@
 <body>
     <div class="profile-container">
       <div class="profile-cards">
-       <img src="./imags/instructor_img/pinki.png" height="50px" alt="Vaibhavi Hole" class=""/>
+       <img src="./imags/instructor_img/pinki.png" height="70px" alt="Vaibhavi Hole" class="image-structure"/>
+       <h1 class="profile-text">Vaibhavi Hole</h1>
+       <h4 class="profile-text1">Instructor</h4>
       </div>
 
       <div class="profile-cards">
-       
+          <img src="./imags/instructor_img/suraj.png" height="70px" alt="Suraj Shnde" class="image-structure"/>
+          <h1 class="profile-text">Suraj Shende</h1>
+          <h4 class="profile-text1">Instructor</h4>
       </div>
 
       <div class="profile-cards">
-       
+          <img src="./imags/instructor_img/vaishnavi.png" height="70px" alt="Vaishnavi Hole" class="image-structure"/>
+          <h1 class="profile-text">Vaishnavi Hole</h1>
+          <h4 class="profile-text1">Instructor</h4>
       </div>
+
     </div>
 </body>
 </html>
